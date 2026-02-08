@@ -1,9 +1,7 @@
 import java.util.ArrayList;
 
-/**
- * @author Blocky
- */
 public class Project {
+    
     // Attributes
     private String acronym;
     private double totalBudget;

@@ -1,17 +1,16 @@
-/**
- * @author Blocky
- */
 public class Agente {
+    
     //Atributos
     private String dni;
     private String nombre;
-    
-    //Métodos
+
+    //Constructor    
     public Agente(String dni, String nombre) {
         this.dni = dni;
         this.nombre = nombre;
     }
-    
+
+    //Métodos
     public String getDni() {
         return dni;
     }

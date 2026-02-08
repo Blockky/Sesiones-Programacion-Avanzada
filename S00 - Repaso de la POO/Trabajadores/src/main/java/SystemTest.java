@@ -1,7 +1,5 @@
-/**
- * @author Blocky
- */
 public class SystemTest {
+    
     public static void main(String arg[]){
         Programmer p1 =  new Programmer("52441553AS", "Paul J.", "Java");
         Programmer p2 =  new Programmer("52441216RS", "Jonh A.", "C++");

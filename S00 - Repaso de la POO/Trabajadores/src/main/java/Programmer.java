@@ -1,7 +1,5 @@
-/**
- * @author Blocky
- */
 public class Programmer extends Worker {
+    
     // Attributes
     private String language;
     private static int numberOfProgrammers = 0;

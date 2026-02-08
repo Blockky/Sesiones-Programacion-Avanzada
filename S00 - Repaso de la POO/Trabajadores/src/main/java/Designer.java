@@ -1,6 +1,3 @@
-/**
- * @author Blocky
- */
 public class Designer extends Worker {
     
     // Attributes

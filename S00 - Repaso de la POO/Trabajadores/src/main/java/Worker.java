@@ -1,7 +1,5 @@
-/**
- * @author Blocky
- */
 public abstract class Worker {
+    
     // Attributes
     private String id;
     private String fullName;

@@ -1,25 +1,26 @@
-/**
- * @author Blocky
- */
-public class Camion {
+public class Camion extends Vehiculo {
+    
     //Atributos
     private int ejes;
-    private int pesoTotal;
+
+    //Constructor
+    public Camion(String matricula, int pesoTotal, int ejes) {
+        super(matricula, pesoTotal);
+        this.ejes = ejes;
+    }
     
     //Métodos
-    public Camion(int ejes, int pesoTotal) {
-    this.ejes = ejes;
-    this.pesoTotal = pesoTotal;
+    public int peaje() {
+        return 5 * this.ejes + 2 * (super.getPesoTotal() / 1000);
     }
     
     public int getEjes() {
         return this.ejes;
     }
-    public int getPesoTotal() {
-        return this.pesoTotal;
-    }
+
     @Override
     public String toString() {
-        return "Camion{" + "ejes=" + ejes + ", pesoTotal=" + pesoTotal + '}';
+        String s = super.toString();
+        return s + " # Camión - Ejes: " + this.ejes;
     }
 }
