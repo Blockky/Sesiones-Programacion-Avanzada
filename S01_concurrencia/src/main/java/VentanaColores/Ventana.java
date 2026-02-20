@@ -1,3 +1,5 @@
+package VentanaColores;
+
 import javax.swing.*;
 
 /**

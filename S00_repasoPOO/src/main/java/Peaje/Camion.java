@@ -1,3 +1,5 @@
+package Peaje;
+
 public class Camion extends Vehiculo {
     
     //Atributos

@@ -1,3 +1,5 @@
+package Peaje;
+
 public class PruebaCabinaPeaje {
 
     public static void main(String args[]) {

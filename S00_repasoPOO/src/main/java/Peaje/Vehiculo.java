@@ -1,3 +1,5 @@
+package Peaje;
+
 public abstract class Vehiculo {
     
     //Atributos

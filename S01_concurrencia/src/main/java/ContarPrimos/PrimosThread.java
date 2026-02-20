@@ -1,3 +1,5 @@
+package ContarPrimos;
+
 /**
  * @author Blocky
  */
