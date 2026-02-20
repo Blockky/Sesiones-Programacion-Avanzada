@@ -1,5 +1,4 @@
 package ContarPrimos;
-
 import java.util.*;
 
 /**

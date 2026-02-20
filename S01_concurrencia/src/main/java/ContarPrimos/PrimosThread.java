@@ -1,4 +1,5 @@
 package ContarPrimos;
+import java.util.Date;
 
 /**
  * @author Blocky
@@ -27,10 +28,14 @@ public class PrimosThread extends Thread {
     }
     
     public void run() {
+        long t0 = (new Date()).getTime();
         for (int i = x; i <= y; i++) {
             if (esPrimo(i))
                 n++;
         }
+        long t1 = (new Date()).getTime();
+        System.out.println("El hilo que calcula de " + x + " a " + y + " tarda "
+                + (t1-t0) + " milisegundos");
     }
     
     public int cuantos() {
