@@ -1,4 +1,4 @@
-package ContarPrimos;
+package Ejercicio1;
 import java.util.Date;
 
 /**

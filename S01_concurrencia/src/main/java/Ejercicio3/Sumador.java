@@ -58,7 +58,8 @@ public class Sumador extends Thread {
                     }
                 t1 = (new Date()).getTime();
                 System.out.println("La suma C da: " + suma + "; y tarda "
-                + (t1-t0) + " milisegundos");                break;
+                + (t1-t0) + " milisegundos");
+                break;
         }
     }
     

@@ -23,8 +23,17 @@ public class Pintor extends Thread {
     //Métodos
     public void run() {
         while (true) {
+            b.setBackground(paleta[0]);
+            int t = (int)(2000. * Math.random()) + 2000;
+            try {
+                sleep(t);
+            } catch (Exception e) {}
             int i = (int)(5. * Math.random());
             b.setBackground(paleta[i]);
+            int t2 = (int)(2000. * Math.random()) + 3000;
+            try {
+                sleep(t2);
+            } catch (Exception e) {}
         }
     }
 }
